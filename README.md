@@ -64,12 +64,12 @@ Here we just shows mean Latencies (on 2 GHz Intel Core i5 on MacBook Pro).
 Note that `baseline` shows a result for responses without GraphQL operations.
 
 ```
-apollo-server:                     2.949122ms (baseline: 2.342966ms)
-graphql-go:                        2.478427ms (baseline: 2.215219ms)
-graphql-go-alt:                    2.126513ms (baseline: 1.890965ms)
-graphql-gateway -> apollo-server:  6.241109ms (baseline: 4.466211ms)
-graphql-gateway -> graphql-go:     5.636672ms (baseline: 4.233277ms)
-graphql-gateway -> graphql-go-alt: 4.718619ms (baseline: 4.140846ms)
+apollo-server                      2.949122ms (baseline: 2.342966ms)
+graphql-go                         2.478427ms (baseline: 2.215219ms)
+graphql-go-alt                     2.126513ms (baseline: 1.890965ms)
+graphql-gateway -> apollo-server   6.241109ms (baseline: 4.466211ms)
+graphql-gateway -> graphql-go      5.636672ms (baseline: 4.233277ms)
+graphql-gateway -> graphql-go-alt  4.718619ms (baseline: 4.140846ms)
 ```
 
 
